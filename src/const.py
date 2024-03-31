@@ -1,6 +1,6 @@
 # screen dimension
-WIDTH = 1000
-HEIGHT = 1000
+WIDTH = 800
+HEIGHT = 800
 
 #board dimension
 ROWS = 8
