@@ -1,8 +1,8 @@
 class Square:
 
-    def __init__(self, row, col, piece=None):
+    def __init__(self, row, color, piece=None):
         self.row = row
-        self.col = col
+        self.color = color
         self.piece = piece
 
     def has_piece(self):

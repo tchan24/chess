@@ -12,7 +12,7 @@ class Board:
         self._add_pieces('black')
 
     def _create(self):
-        print(self.squares)
+        #print(self.squares)
 
         for row in range(ROWS):
             for col in range(COLUMNS):
@@ -22,7 +22,7 @@ class Board:
             row_pawn, row_other = (6,7) if color == 'white' else (1,0)
 
             for col in range(COLUMNS):
-                self.squares[row_pawn][col] = Square[row_pawn, col, Pawn(color)] #all pawns
+                self.squares[row_pawn][col] = Square[row_pawn, col, Pawn(color)]
 
             #knights
             self.squares[row_other][1] = Square[row_other, 1, Knight(color)]
